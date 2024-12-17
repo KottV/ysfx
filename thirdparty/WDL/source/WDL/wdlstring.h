@@ -39,6 +39,8 @@
 #include "heapbuf.h"
 #include <stdio.h>
 #include <stdarg.h>
+#include <string.h>
+#include <cstring>
 
 #ifndef WDL_STRING_IMPL_ONLY
 class WDL_String

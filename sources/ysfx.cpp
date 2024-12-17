@@ -411,9 +411,9 @@ bool ysfx_compile(ysfx_t *fx, uint32_t compileopts)
             maxmem = 128 * 1024 * 1024;
 
         NSEEL_VM_setramsize(vm, (int)maxmem);
-        if (fx->source.main->header.options.prealloc != 0) {
-            NSEEL_VM_preallocram(vm, (int) fx->source.main->header.options.prealloc);
-        };
+        // if (fx->source.main->header.options.prealloc != 0) {
+        //     NSEEL_VM_preallocram(vm, (int) fx->source.main->header.options.prealloc);
+        // };
     }
 
     //--------------------------------------------------------------------------

@@ -43,7 +43,7 @@
 #endif
 
 #include "wdltypes.h"
-
+#include <cstring>
 class WDL_HeapBuf
 {
   public:
